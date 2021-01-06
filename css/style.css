@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+/* header */
+
+.container {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1920px;
+  background-image: url(../images/Vector-Smart-Object.png);
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 540px;
+  text-align: center;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.logo {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #ffffff;
+}
+
+.log-sign {
+  display: inline-block;
+  margin-top: 33px;
+}
+
+.log-in {
+  margin-right: 37px;
+}
+
+.log-in,
+.sign-in {
+  margin-bottom: 130px;
+}
+
+.log-sign button {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  line-height: 100%;
+  font-weight: 700;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+.log-sign button:hover {
+  border-radius: 40px;
+  border: 2px solid #ffffff;
+  padding: 8px 12px;
+  outline: none;
+}
+
+.container h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  line-height: 100%;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.spam {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+  color: #ffffff;
+  width: 220px;
+  margin: 0 auto;
+}
+
+.second-button {
+  width: 280px;
+  height: 36px;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border: 0;
+  background-color: #ff4e50;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 19px;
+  transition: transform 0.6s ease-in-out;
+}
+
+.second-button:hover {
+  transform: scale(1.2);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+/* info */
+
+.container-second {
+  width: 100%;
+  min-width: 320px;
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+}
+
+/* Тут может появиться скрол */
+.info-item {
+  width: 223px;
+  margin: 0 auto;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.info h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 100%;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  padding: 5px;
+}
+
+.info-item h4 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 700;
+  color: #333333;
+}
+
+.info-item p {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 300;
+  color: #666666;
+}
+
+.last-button {
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 78, 80);
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  width: 280px;
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 100%;
+  font-weight: 700;
+  color: #ff4e50;
+  cursor: pointer;
+  outline: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.6s ease-in-out;
+}
+
+.last-button:hover {
+  transform: scale(1.2);
+}
+
+.red {
+  background-image: url(../images/icons/Shape\ 155.png);
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 37px;
+  position: relative;
+  bottom: 40px;
+  left: 61%;
+  background-position: center;
+  background-color: #ff4e50;
+  border: 4px solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.yellow {
+  background-image: url(../images/icons/Shape\ 155.png);
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 37px;
+  position: relative;
+  bottom: 40px;
+  left: 61%;
+  background-position: center;
+  background-color: #ffa507;
+  border: 4px solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.green {
+  background-image: url(../images/icons/Shape\ 153.png);
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 37px;
+  position: relative;
+  bottom: 40px;
+  left: 61%;
+  background-position: center;
+  background-color: #1cd7ad;
+  border: 4px solid;
+  border-color: white;
+  border-radius: 50%;
+}
+
+.blue {
+  background-image: url(../images/icons/Shape\ 170.png);
+  background-repeat: no-repeat;
+  width: 37px;
+  height: 37px;
+  position: relative;
+  bottom: 40px;
+  left: 61%;
+  background-position: center;
+  background-color: #4e73db;
+  border: 4px solid;
+  border-color: white;
+  border-radius: 50%;
+}
