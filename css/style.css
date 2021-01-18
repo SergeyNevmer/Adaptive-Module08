@@ -46,21 +46,22 @@
 }
 
 .log-sign button {
-  border: none;
+  width: 90px;
+  height: 36px;
+  color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
-  line-height: 100%;
+  font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
-  cursor: pointer;
+  border: 0;
   background-color: transparent;
-  transition: all 0.4s ease-in-out;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  margin-bottom: 115px;
 }
 
 .log-sign button:hover {
   border-radius: 40px;
   border: 2px solid #ffffff;
-  padding: 8px 12px;
   outline: none;
 }
 
@@ -86,7 +87,7 @@
 }
 
 .second-button {
-  width: 280px;
+  width: 260px;
   height: 36px;
   color: #ffffff;
   font-family: "Montserrat", sans-serif;
@@ -160,7 +161,7 @@
   border-color: rgb(255, 78, 80);
   border-radius: 20px;
   background-color: rgb(255, 255, 255);
-  width: 280px;
+  width: 260px;
   height: 36px;
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
